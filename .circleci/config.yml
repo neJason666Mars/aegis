@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
+          name: "Test"
           command: "lscpu"
 
 # Invoke jobs via workflows
